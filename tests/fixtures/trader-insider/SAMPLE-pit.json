@@ -1,0 +1,6 @@
+{"data": [
+ {"symbol": "RELIANCE", "company": "Reliance Industries Limited", "anex": "7(2)", "acqName": "SAMPLE PROMOTER HOLDINGS PRIVATE LIMITED",
+  "personCategory": "Promoter Group", "secType": "Equity Shares", "secAcq": "50000", "secVal": "74250000", "tdpTransactionType": "Buy",
+  "befAcqSharesPer": "0.01", "afterAcqSharesPer": "0.01", "acqfromDt": "03-Nov-2026", "acqtoDt": "03-Nov-2026", "intimDt": "04-Nov-2026",
+  "acqMode": "Market Purchase", "exchange": "NSE", "remarks": "-", "date": "05-Nov-2026 18:30"}
+]}

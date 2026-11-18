@@ -1,0 +1,10 @@
+{
+  "rules": [
+    {"id": "opening-bell", "type": "opening_bell"},
+    {"id": "reliance.ns-plan-stop", "symbol": "RELIANCE.NS", "type": "stop", "price": 1301.2, "note": "plan stop: opening-range midpoint", "date": "2026-11-06"},
+    {"id": "reliance.ns-plan-target", "symbol": "RELIANCE.NS", "type": "target", "price": 1317.1, "note": "plan target: 2R (two times the risk)", "date": "2026-11-06"},
+    {"id": "reliance.ns-flat-by", "symbol": "RELIANCE.NS", "type": "time", "at": "15:10", "label": "flat by", "mis": true, "date": "2026-11-06"},
+    {"id": "tcs.ns-move-3", "symbol": "TCS.NS", "type": "pct_move", "pct": 3},
+    {"id": "hdfcbank.ns-above-780", "symbol": "HDFCBANK.NS", "type": "above", "price": 780}
+  ]
+}

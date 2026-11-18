@@ -1,0 +1,14 @@
+[
+  {"symbol": "RELIANCE", "companyName": "Reliance Industries Limited", "audited": "Un-Audited",
+   "cumulative": "Non-cumulative", "consolidated": "Consolidated", "period": "Quarterly",
+   "relatingTo": "Third Quarter", "fromDate": "01-Oct-2025", "toDate": "31-Dec-2025",
+   "filingDate": "16-Jan-2026 19:38",
+   "xbrl": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_135487_16012026193821_iXBRL_WEB.html"},
+  {"symbol": "RELIANCE", "companyName": "Reliance Industries Limited", "audited": "Un-Audited",
+   "cumulative": "Non-cumulative", "consolidated": "Consolidated", "period": "Quarterly",
+   "relatingTo": "Third Quarter", "fromDate": "01-Oct-2024", "toDate": "31-Dec-2024",
+   "filingDate": "16-Jan-2025 19:40",
+   "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SAMPLE_INDAS_RELIANCE_Q3FY25.xml"},
+  {"symbol": "RELIANCE", "consolidated": "Consolidated", "toDate": "30-Sep-2025",
+   "xbrl": "https://example.com/not-an-nse-archive.xml"}
+]

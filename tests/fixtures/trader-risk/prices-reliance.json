@@ -1,0 +1,7 @@
+{
+  "as_of": "2026-11-06T06:15:00Z",
+  "source": "Yahoo chart JSON query2.finance.yahoo.com/v8/finance/chart/RELIANCE.NS?range=1d&interval=1d, fetched 2026-11-06 (regularMarketPrice 1313.8, regularMarketTime 1793945524 = 11:42:04 IST)",
+  "prices": {"RELIANCE.NS": 1313.8},
+  "detail": {"RELIANCE.NS": {"time": "2026-11-06T06:12:04Z", "fetched": "2026-11-06T06:15:00Z",
+                             "day_high": 1314.0, "day_low": 1295.0, "previous_close": 1313.4}}
+}

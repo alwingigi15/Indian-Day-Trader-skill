@@ -1,0 +1,4 @@
+{
+  "_note": "Extra NSE trading holidays. 2026 is built into every script. When NSE publishes the 2027 list (December; nseindia.com > Resources > Exchange Communication > Holidays), add each weekday holiday here as \"YYYY-MM-DD\": \"name\".",
+  "holidays": {}
+}

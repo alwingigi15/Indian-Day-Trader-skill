@@ -1,0 +1,11 @@
+{
+  "source": "Example split: five Nifty 50 stocks with round illustrative weights (not index weights, not a recommendation)",
+  "as_of": "2026-11-06",
+  "weights": [
+    {"ticker": "RELIANCE.NS", "name": "Reliance Industries", "weight": 30},
+    {"ticker": "HDFCBANK.NS", "name": "HDFC Bank", "weight": 25},
+    {"ticker": "ICICIBANK.NS", "name": "ICICI Bank", "weight": 20},
+    {"ticker": "INFY.NS", "name": "Infosys", "weight": 15},
+    {"ticker": "TCS.NS", "name": "Tata Consultancy Services", "weight": 10}
+  ]
+}

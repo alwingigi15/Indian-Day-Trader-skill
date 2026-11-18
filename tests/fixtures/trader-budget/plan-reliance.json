@@ -1,0 +1,21 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "RELIANCE.NS",
+  "side": "buy",
+  "date": "2026-11-06",
+  "setup": "orb",
+  "entry": 1311.90,
+  "entry_time": "09:50",
+  "entry_bar": 6,
+  "interval": "5m",
+  "opening_range": {"high": 1306.00, "low": 1295.60, "minutes": 15},
+  "stop": 1300.80,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 1334.10,
+  "target_r": 2.0,
+  "target_label": "2R (two times the risk)",
+  "risk_per_share": 11.10,
+  "reward_risk": 2.0,
+  "flat_by": "15:10"
+}

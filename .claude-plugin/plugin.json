@@ -1,0 +1,23 @@
+{
+  "name": "indian-day-trader-skill",
+  "description": "11 Claude skills for day trading Indian stocks on NSE: scan the Nifty 500, track NSE announcements, time every entry and exit in IST, and replay every outcome, charges included, before you risk a rupee.",
+  "version": "3.0.0-india",
+  "author": {
+    "name": "Jake Schincariol (original US pack); India adaptation",
+    "url": "https://opusjake.ai"
+  },
+  "homepage": "https://github.com/Jakeschincariol/day-trader-skill",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "day-trading",
+    "indian-stock-market",
+    "nse",
+    "nifty",
+    "intraday",
+    "opening-range-breakout",
+    "backtesting"
+  ],
+  "skills": "./"
+}

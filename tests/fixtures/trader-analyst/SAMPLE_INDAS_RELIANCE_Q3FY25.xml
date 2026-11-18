@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC sample for tests: the shape of an NSE Ind AS financial-results XBRL instance
+     (in-capmkt taxonomy). No plain public copy of a raw instance was reachable without
+     nseindia.com's browser session; the figures are illustrative, not a real filing. -->
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance"
+            xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+            xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+            xmlns:in-capmkt="http://www.sebi.gov.in/xbrl/2025-05-31/in-capmkt">
+  <xbrli:context id="OneD">
+    <xbrli:entity><xbrli:identifier scheme="http://www.sebi.gov.in">INE002A01018</xbrli:identifier></xbrli:entity>
+    <xbrli:period><xbrli:startDate>2024-10-01</xbrli:startDate><xbrli:endDate>2024-12-31</xbrli:endDate></xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FourD">
+    <xbrli:entity><xbrli:identifier scheme="http://www.sebi.gov.in">INE002A01018</xbrli:identifier></xbrli:entity>
+    <xbrli:period><xbrli:startDate>2024-04-01</xbrli:startDate><xbrli:endDate>2024-12-31</xbrli:endDate></xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="OneD_Segment1">
+    <xbrli:entity><xbrli:identifier scheme="http://www.sebi.gov.in">INE002A01018</xbrli:identifier>
+      <xbrli:segment><xbrldi:explicitMember dimension="in-capmkt:SegmentsAxis">in-capmkt:Segment1Member</xbrldi:explicitMember></xbrli:segment>
+    </xbrli:entity>
+    <xbrli:period><xbrli:startDate>2024-10-01</xbrli:startDate><xbrli:endDate>2024-12-31</xbrli:endDate></xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="INR"><xbrli:measure>iso4217:INR</xbrli:measure></xbrli:unit>
+  <xbrli:unit id="INRPerShare"><xbrli:divide>
+    <xbrli:unitNumerator><xbrli:measure>iso4217:INR</xbrli:measure></xbrli:unitNumerator>
+    <xbrli:unitDenominator><xbrli:measure>xbrli:shares</xbrli:measure></xbrli:unitDenominator>
+  </xbrli:divide></xbrli:unit>
+  <xbrli:unit id="pure"><xbrli:measure>xbrli:pure</xbrli:measure></xbrli:unit>
+  <in-capmkt:Symbol contextRef="OneD">RELIANCE</in-capmkt:Symbol>
+  <in-capmkt:NameOfTheCompany contextRef="OneD">RELIANCE INDUSTRIES LIMITED</in-capmkt:NameOfTheCompany>
+  <in-capmkt:NatureOfReportStandaloneConsolidated contextRef="OneD">Consolidated</in-capmkt:NatureOfReportStandaloneConsolidated>
+  <in-capmkt:LevelOfRoundingUsedInFinancialStatements contextRef="OneD">Lakhs</in-capmkt:LevelOfRoundingUsedInFinancialStatements>
+  <in-capmkt:RevenueFromOperations contextRef="OneD" unitRef="INR" decimals="-5">2438650000000</in-capmkt:RevenueFromOperations>
+  <in-capmkt:RevenueFromOperations contextRef="FourD" unitRef="INR" decimals="-5">7038070000000</in-capmkt:RevenueFromOperations>
+  <in-capmkt:RevenueFromOperations contextRef="OneD_Segment1" unitRef="INR" decimals="-5">1500000000000</in-capmkt:RevenueFromOperations>
+  <in-capmkt:OtherIncome contextRef="OneD" unitRef="INR" decimals="-5">42140000000</in-capmkt:OtherIncome>
+  <in-capmkt:FinanceCosts contextRef="OneD" unitRef="INR" decimals="-5">61790000000</in-capmkt:FinanceCosts>
+  <in-capmkt:ProfitBeforeExceptionalItemsAndTax contextRef="OneD" unitRef="INR" decimals="-5">285520000000</in-capmkt:ProfitBeforeExceptionalItemsAndTax>
+  <in-capmkt:ProfitLossForPeriod contextRef="OneD" unitRef="INR" decimals="-5">216620000000</in-capmkt:ProfitLossForPeriod>
+  <in-capmkt:ProfitOrLossAttributableToOwnersOfParent contextRef="OneD" unitRef="INR" decimals="-5">185400000000</in-capmkt:ProfitOrLossAttributableToOwnersOfParent>
+  <in-capmkt:DilutedEarningsLossPerShareFromContinuingAndDiscontinuedOperations contextRef="OneD" unitRef="INRPerShare" decimals="2">13.70</in-capmkt:DilutedEarningsLossPerShareFromContinuingAndDiscontinuedOperations>
+  <in-capmkt:DebtEquityRatio contextRef="OneD" unitRef="pure" decimals="2">0.44</in-capmkt:DebtEquityRatio>
+</xbrli:xbrl>
