@@ -1,0 +1,29 @@
+{
+  "rules": [
+    {
+      "id": "auropharma.ns-plan-stop",
+      "symbol": "AUROPHARMA.NS",
+      "type": "stop",
+      "price": 1797.3,
+      "note": "plan stop: opening-range midpoint",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "auropharma.ns-plan-target",
+      "symbol": "AUROPHARMA.NS",
+      "type": "target",
+      "price": 1819.8,
+      "note": "plan target: 2R (two times the risk)",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "auropharma.ns-flat-by",
+      "symbol": "AUROPHARMA.NS",
+      "type": "time",
+      "at": "15:10",
+      "label": "flat by",
+      "mis": true,
+      "date": "2026-11-18"
+    }
+  ]
+}

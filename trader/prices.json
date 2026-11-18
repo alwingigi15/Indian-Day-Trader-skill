@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-11-18T06:34:01Z",
+  "as_of_ist": "2026-11-18T12:04:01+05:30",
+  "source": "yahoo",
+  "currency": "INR",
+  "note": "Delayed quotes in rupees for alerts and sizing checks. Your broker's price is the one that fills. detail.fetched is when each price was read (UTC).",
+  "prices": {
+    "AUROPHARMA.NS": 1807.0
+  },
+  "detail": {
+    "AUROPHARMA.NS": {
+      "prev_close": 1794.1,
+      "time": "2026-11-18T06:33:58Z",
+      "source": "yahoo",
+      "fetched": "2026-11-18T06:34:01Z"
+    }
+  }
+}
